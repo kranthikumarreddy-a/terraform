@@ -11,7 +11,7 @@ resource "aws_instance" "example" {
 }
 
 resource "aws_security_group" "allow_tls" {
-  name        = "Terraform_Security_Group"
+  name        = "Terraform_Security_Group_for_each"
   description = "Allow TLS inbound traffic and all outbound traffic"
 
    ingress {
